@@ -73,13 +73,6 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
-    // 3. Multimedia (Lo que necesitas para tu app)
-    implementation("androidx.media3:media3-exoplayer:1.2.0")
-    implementation("androidx.media3:media3-ui:1.2.0")
-    implementation("androidx.media3:media3-session:1.2.0")
-    implementation("io.coil-kt:coil-compose:2.5.0")
-    implementation("androidx.compose.material:material-icons-extended:1.6.0")
-
     // 4. Testing y Debugging
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
@@ -91,4 +84,7 @@ dependencies {
 
     implementation("androidx.media3:media3-exoplayer:1.3.1")
     implementation("androidx.media3:media3-ui:1.3.1")
+    implementation("androidx.media3:media3-session:1.3.1")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation("androidx.compose.material:material-icons-extended:1.6.0")
 }
